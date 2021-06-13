@@ -9,6 +9,7 @@ class Base:
         self.window = window
         self.settings = settings
         self.grid = grid
+        print("Init Base")
         self.img = image.load('icons/base.png')
         self.window.blit(self.img, self.get_position(0, 0))
         self.sendSignal()
